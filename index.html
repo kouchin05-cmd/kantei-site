@@ -11,26 +11,36 @@ margin:0;
 font-family:"Hiragino Mincho ProN","Yu Mincho",serif;
 background: radial-gradient(circle at center,#2b2250,#0d0c14);
 color:#fff;
-text-align:center;
 min-height:100vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
+align-items:center;
+text-align:center;
 }
 
 .container{
 padding:20px;
+max-width:900px;
+}
+
+.hero-img{
+width:90%;
+max-width:700px;
+border-radius:20px;
+box-shadow:0 0 40px rgba(255,215,0,.5);
+margin-bottom:24px;
 }
 
 h1{
-font-size:36px;
+font-size:34px;
 letter-spacing:8px;
-margin-bottom:20px;
+margin:0 0 10px;
 }
 
 .subtitle{
 opacity:0.85;
-margin-bottom:40px;
+margin-bottom:36px;
 }
 
 .start-button{
@@ -58,11 +68,15 @@ font-size:12px;
 opacity:0.6;
 }
 </style>
-
 </head>
+
 <body>
 
 <div class="container">
+
+<!-- ここが title.png 読み込み -->
+<img src="title.png" alt="兆しの書院" class="hero-img">
+
 <h1>兆しの書院</h1>
 <p class="subtitle">月と星の導きによる特別鑑定</p>
 
@@ -71,6 +85,7 @@ opacity:0.6;
    target="_blank">
    鑑定開始
 </a>
+
 </div>
 
 <footer>
