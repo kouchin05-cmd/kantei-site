@@ -3,74 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>兆しの書院｜鑑定スタート</title>
+<title>兆しの書院｜鑑定開始</title>
 
 <style>
 body{
 margin:0;
-font-family:"Hiragino Mincho ProN",serif;
+font-family:"Hiragino Mincho ProN","Yu Mincho",serif;
 background: radial-gradient(circle at center,#2b2250,#0d0c14);
 color:#fff;
 text-align:center;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
 }
 
-img{
-width:90%;
-max-width:700px;
-margin-top:30px;
-border-radius:20px;
-box-shadow:0 0 40px rgba(255,215,0,.5);
+.container{
+padding:20px;
 }
 
 h1{
 font-size:36px;
 letter-spacing:8px;
-margin-top:20px;
+margin-bottom:20px;
 }
 
 .subtitle{
-opacity:0.8;
-margin-bottom:30px;
-}
-
-.button-area{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:15px;
-margin-bottom:50px;
+opacity:0.85;
+margin-bottom:40px;
 }
 
 .start-button{
-padding:12px 24px;
+display:inline-block;
+padding:16px 36px;
 background:linear-gradient(135deg,#3a2a6f,#c7a64b);
-border-radius:30px;
+border-radius:40px;
 color:#fff;
 text-decoration:none;
-font-size:16px;
+font-size:18px;
+letter-spacing:3px;
+box-shadow:0 0 25px rgba(255,215,0,.5);
 transition:0.3s;
 }
 
 .start-button:hover{
-transform:scale(1.05);
+transform:scale(1.07);
+box-shadow:0 0 35px rgba(255,215,0,.8);
+}
+
+footer{
+margin-top:auto;
+padding:20px;
+font-size:12px;
+opacity:0.6;
 }
 </style>
 
 </head>
 <body>
 
-<img src="https://kouchin05-cmd.github.io/kantei-site/title.png">
-
+<div class="container">
 <h1>兆しの書院</h1>
-<p class="subtitle">あなたの運命を読み解きます</p>
+<p class="subtitle">月と星の導きによる特別鑑定</p>
 
-<div class="button-area">
-<a href="renai.html" class="start-button">恋愛</a>
-<a href="fukuen.html" class="start-button">復縁</a>
-<a href="furin.html" class="start-button">不倫</a>
-<a href="kekkon.html" class="start-button">結婚</a>
-<a href="kinun.html" class="start-button">金運</a>
+<a href="https://lin.ee/nTbmE2A?openExternalBrowser=1"
+   class="start-button"
+   target="_blank">
+   鑑定開始
+</a>
 </div>
+
+<footer>
+© 2026 kizashinoshoko
+</footer>
 
 </body>
 </html>
